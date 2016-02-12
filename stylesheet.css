@@ -1,0 +1,47 @@
+h1 {
+	font-family: 'Futura';
+	text-align: center;
+	margin-bottom: 0;
+}
+
+p {
+	font-family: 'Avenir';
+	text-align: center;
+	margin-top: 0;
+}
+
+h3 {
+	font-family: 'Avenir';
+	text-align: center;
+	margin-top: 0;
+}
+
+li {
+	font-family: 'Avenir';
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+#container {
+	width: 601px;
+	height: 300px;
+	margin: 10%;
+}
+
+#exercises {
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin-top: 20px;
+	border-right: 1px solid black;
+}
+
+#projects {
+	width: 300px;
+	height: 300px;
+	margin-top: 20px;
+	float: left;
+}
