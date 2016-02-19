@@ -17,10 +17,30 @@ body {
 	margin: 100px auto;
 	background: white;
 	position: relative;
+	z-index: -2;
 }
 
 #table {
-	border-bottom: 150px solid green;
+	width: 900px;
+	height: 150px;
+	background: peru;
+	z-index: -1;
+	position: absolute;
+	border-bottom: 2px solid white;
+	top: 200px;
+}
+
+#table2 {
+	width: 900px;
+	height: 20px;
+	background: peru;
+	z-index: -1;
+	position: absolute;
+	top: 349px;
+}
+
+#mat {
+	border-bottom: 148px solid seagreen;
 	border-left: 40px solid transparent;
 	border-right: 40px solid transparent;
 	height: 0;
@@ -42,28 +62,27 @@ body {
 	top: 230px;
 	left: 600px;
 	position: absolute;
-	box-shadow: 2px 8px 22px #bbbbbb;
 }
 
-/*#pumpkin2 {
-	width: 60px;
-	height: 60px;
+#pumpkin2 {
+	width: 40px;
+	height: 40px;
 	background: orange;
-	border-radius: 30px;
-	top: 340px;
-	left: 670px;
+	border-radius: 60%;
+	top: 230px;
+	left: 645px;
 	position: absolute;
-}*/
+	transform: skew(30deg);
+}
 
 #lamp {
 	width: 180px;
 	height: 180px;
-	background: radial-gradient(circle at 100px 100px, white, gray);
+	background: radial-gradient(circle at 110px 60px, seashell, gray);
 	border-radius: 50% 50% 45% 45%;
 	top: 100px;
 	left: 400px;
 	position: absolute;
-	box-shadow: 2px 8px 22px #bbbbbb;
 }
 
 #glass {
@@ -74,6 +93,16 @@ body {
 	top: 130px;
 	left: 250px;
 	border-radius: 10px;
+	opacity: 0.7;
+}
+
+#water {
+	width: 75px;
+	height: 30px;
+	background: turquoise;
+	position: absolute;
+	border-radius: 0px 0px 10px 10px;
+	top: 95px;
 	opacity: 0.7;
 }
 
@@ -91,7 +120,7 @@ body {
 }
 
 #stem {
-	background: brown;
+	background: sienna;
 	width: 7px;
 	height: 180px;
 	position: absolute;
@@ -100,18 +129,99 @@ body {
 
 #flower {
 	position: absolute;
-	width: 50px;
-	height: 50px;
 }
 
-.petal {
+#petal_leftbottom {
 	width: 10px;
 	height: 10px;
 	border-radius: 0 50% 50% 50%;
 	background: pink;
+	transform: rotate(110deg);
 }
 
-#petal_leftbottom {
-	
+#petal_bottom {
+	width: 10px;
+	height: 10px;
+	border-radius: 0 50% 50% 50%;
+	background: pink;
+	transform: rotate(45deg);
+	position: absolute;
+	top: 5px;
+	left: 8px;
+}
+
+#petal_rightbottom {
+	width: 10px;
+	height: 10px;
+	border-radius: 0 50% 50% 50%;
+	background: pink;
+	transform: rotate(-20deg);
+	position: absolute;
+	top: 0px;
+	left: 16px;
+}
+
+#petal_rightup {
+	width: 10px;
+	height: 10px;
+	border-radius: 0 50% 50% 50%;
+	background: pink;
+	transform: rotate(-90deg);
+	position: absolute;
+	top: -9px;
+	left: 13px;
+}
+
+#petal_leftup {
+	width: 10px;
+	height: 10px;
+	border-radius: 0 50% 50% 50%;
+	background: pink;
+	transform: rotate(-180deg);
+	position: absolute;
+	top: -9px;
+	left: 3px;
+}
+
+.shadow_vase {
+	width: 80px;
+	height: 20px;
+	border-radius: 50%;
+	background: black;
+	opacity: 0.5;
+	position: absolute;
+	left: 243px;
+	top: 240px;
+	-moz-box-shadow: 1px 2px 3px black;
+	-webkit-box-shadow: 1px 2px 3px black;
+	box-shadow: 0px 0px 40px;
+}
+
+.shadow_lamp {
+	width: 100px;
+	height: 40px;
+	border-radius: 50%;
+	background: black;
+	opacity: 0.5;
+	position: absolute;
+	left: 430px;
+	top: 248px;
+	-moz-box-shadow: 1px 2px 3px black;
+	-webkit-box-shadow: 1px 2px 3px black;
+	box-shadow: 0px 0px 40px;
+}
+
+.shadow_pumpkin {
+	width: 60px;
+	height: 30px;
+	border-radius: 50%;
+	background: black;
+	opacity: 0.5;
+	position: absolute;
+	left: 605px;
+	top: 295px;
+	-moz-box-shadow: 1px 2px 3px black;
+	-webkit-box-shadow: 1px 2px 3px black;
+	box-shadow: 0px 0px 40px;
 }
 
