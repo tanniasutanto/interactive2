@@ -1,0 +1,117 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+#objects {
+	position: absolute;
+	top: 130px;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+#table {
+	border-bottom: 150px solid green;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	height: 0;
+	width: 550px;
+	position: absolute;
+	z-index: 0;
+	top: 200px;
+	left: 160px;
+	-webkit-transform: skew(40deg);
+	-moz-transform: skew(40deg);
+	-o-transform: skew(40deg);
+}
+
+#pumpkin {
+	width: 90px;
+	height: 90px;
+	background: orange;
+	border-radius: 55px;
+	top: 230px;
+	left: 600px;
+	position: absolute;
+	box-shadow: 2px 8px 22px #bbbbbb;
+}
+
+/*#pumpkin2 {
+	width: 60px;
+	height: 60px;
+	background: orange;
+	border-radius: 30px;
+	top: 340px;
+	left: 670px;
+	position: absolute;
+}*/
+
+#lamp {
+	width: 180px;
+	height: 180px;
+	background: radial-gradient(circle at 100px 100px, white, gray);
+	border-radius: 50% 50% 45% 45%;
+	top: 100px;
+	left: 400px;
+	position: absolute;
+	box-shadow: 2px 8px 22px #bbbbbb;
+}
+
+#glass {
+	width: 75px;
+	height: 125px;
+	background: gray;
+	position: absolute;
+	top: 130px;
+	left: 250px;
+	border-radius: 10px;
+	opacity: 0.7;
+}
+
+#glass_neck {
+	border-bottom: 25px solid gray;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	height: 0;
+	width: 75px;
+	position: absolute;
+	border-radius: 5px;
+	top: 115px;
+	left: 250px;
+	opacity: 0.7;
+}
+
+#stem {
+	background: brown;
+	width: 7px;
+	height: 180px;
+	position: absolute;
+	top: 74px;
+}
+
+#flower {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+}
+
+.petal {
+	width: 10px;
+	height: 10px;
+	border-radius: 0 50% 50% 50%;
+	background: pink;
+}
+
+#petal_leftbottom {
+	
+}
+
