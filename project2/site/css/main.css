@@ -1,0 +1,37 @@
+body {
+	background-color: black;
+}
+
+#box {
+	width: 380px;
+	height: 100px;
+	position: relative;
+	margin: 20% 35%;
+}
+
+#bluebox {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	border-radius: 2px;
+	float: left;
+}
+
+#redbox {
+	width: 100px;
+	height: 100px;
+	margin-left: 180px;
+	background-color: red;
+	border-radius: 2px;
+	float: left;
+}
+
+#qmark {
+	width: 100px;
+	height: 100px;
+	float: left;
+	position: absolute;
+	transform: scale(0.2);
+	top: 580px;
+	left: 1180px;
+}

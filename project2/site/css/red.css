@@ -1,0 +1,51 @@
+body {
+	background-color: black;
+}
+
+#text {
+	width: 720px;
+	height: 110px;
+	float: left;
+	position: absolute;
+	top: 240px;
+	left: 260px;
+}
+
+#text_red {
+	width: 720px;
+	height: 110px;
+	float: left;
+	z-index: 1;
+	transform: scale(1.1);
+	position: absolute;
+	top: 240px;
+	left: 260px;
+}
+
+#nav {
+	width: 60px;
+	height: 30px;
+	position: relative;
+	top: 600px;
+	left: 1170px;
+}
+
+#qmark {
+	width: 100px;
+	height: 100px;
+	float: left;
+	transform: scale(0.2);
+	left: -40px;
+	top: -30px;
+	position: absolute;
+}
+
+#square {
+	width: 16px;
+	height: 16px;
+	background-color: red;
+	float: left;
+	position: absolute;
+	left: 40px;
+	top: 14px;
+}

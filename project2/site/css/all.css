@@ -1,0 +1,47 @@
+body {
+	background-color: black;
+}
+
+#all {
+	width: 630px;
+	height: 750px;
+	position: absolute;
+	left: 320px;
+}
+
+#square {
+	width: 10px;
+	height: 10px;
+	background-color: red;
+	position: absolute;
+	top: 730px;
+	left: 1220px;
+}
+
+#nav {
+	width: 60px;
+	height: 30px;
+	position: relative;
+	top: 600px;
+	left: 1170px;
+}
+
+#qmark {
+	width: 100px;
+	height: 100px;
+	float: left;
+	transform: scale(0.2);
+	left: -40px;
+	top: -30px;
+	position: absolute;
+}
+
+#square {
+	width: 16px;
+	height: 16px;
+	background-color: red;
+	float: left;
+	position: absolute;
+	left: 40px;
+	top: 115px;
+}
