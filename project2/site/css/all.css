@@ -1,5 +1,7 @@
 body {
 	background-color: black;
+	width: 100%;
+	margin: 0;
 }
 
 .letters:hover, .numbers:hover {
@@ -27,6 +29,9 @@ body {
 	height: 750px;
 	position: absolute;
 	left: 320px;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -45%);
 }
 
 #home {
@@ -37,7 +42,7 @@ body {
       to right, 
       blue, red
     );
-    position: absolute;
+    position: fixed;
     top: 5px;
     left: 5px;
 }
@@ -46,7 +51,7 @@ body {
 	width: 12px;
 	height: 12px;
 	background-color: blue;
-	position: absolute;
+	position: fixed;
 	bottom: 5px;
 	left: 5px;
 }
@@ -55,7 +60,7 @@ body {
 	width: 12px;
 	height: 12px;
 	background-color: red;
-	position: absolute;
+	position: fixed;
 	bottom: 5px;
 	right: 10px;
 }
@@ -64,7 +69,7 @@ body {
 	width: 9px;
 	height: 9px;
 	border: 2px solid blue;
-	position: absolute;
+	position: fixed;
 	top: 5px;
 	right: 10px;
 }
