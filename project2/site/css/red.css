@@ -1,8 +1,17 @@
 body {
 	background-color: black;
+	width: 100%;
+	margin: 0;
 }
 
-.letters2 {
+#container {
+	position: fixed;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -45%);
+}
+
+.letters {
 	position: relative;
 	animation: pulsate 0.3s infinite;
 	float: left;
@@ -26,20 +35,15 @@ body {
 	width: 720px;
 	height: 110px;
 	float: left;
-	position: absolute;
-	top: 240px;
-	left: 260px;
 }
 
-#text_red {
+#text_blue {
 	width: 720px;
 	height: 110px;
 	float: left;
 	z-index: 1;
 	transform: scale(1.1);
 	position: absolute;
-	top: 240px;
-	left: 260px;
 }
 
 #home {

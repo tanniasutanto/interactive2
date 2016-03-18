@@ -7,8 +7,10 @@ body {
 #box {
 	width: 380px;
 	height: 100px;
-	position: relative;
-	margin: 20% 35%;
+	position: fixed;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -45%);
 }
 
 #bluebox {

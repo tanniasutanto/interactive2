@@ -4,10 +4,20 @@ body {
 	margin: 0;
 }
 
+#container {
+	position: fixed;
+	left: 50%;
+	transform: translate(-50%, -0%);
+}
+
 .letters:hover, .numbers:hover {
 	position: relative;
 	animation: pulsate 1s infinite;
 	float: left;
+}
+
+.top2 {
+	display: none;
 }
 
 @keyframes pulsate {
