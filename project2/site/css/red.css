@@ -68,15 +68,6 @@ body {
 	left: 5px;
 }
 
-#red {
-	width: 12px;
-	height: 12px;
-	background-color: red;
-	position: absolute;
-	bottom: 5px;
-	right: 10px;
-}
-
 #all_type {
 	width: 9px;
 	height: 9px;

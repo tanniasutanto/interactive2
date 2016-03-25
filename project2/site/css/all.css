@@ -74,12 +74,3 @@ body {
 	bottom: 5px;
 	right: 10px;
 }
-
-#all_type {
-	width: 9px;
-	height: 9px;
-	border: 2px solid blue;
-	position: fixed;
-	top: 5px;
-	right: 10px;
-}
