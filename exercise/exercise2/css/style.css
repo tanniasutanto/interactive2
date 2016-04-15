@@ -1,0 +1,107 @@
+@import url();
+
+body {
+	padding:0;
+	margin:0;
+	font-family: sans-serif;
+}
+
+/* Text
+-------------------------------------------------- */
+.text {
+	padding-top: 1em;
+	padding-left: 2.25em;
+	padding-right: 2.25em;
+}
+
+h1 {
+	font-size: 5em;
+	font-weight: 900;
+}
+
+h2 {
+	font-size: 3em;
+	font-weight: 100;
+}
+
+h1, h2 {
+	color: red;
+}
+
+a {
+	color: orange;
+}
+
+.text2 {
+	display: none;
+}
+
+/* Image
+-------------------------------------------------- */
+.large {
+	width: 100%;
+}
+
+.img-grid {
+	text-align: center;
+}
+
+.small {
+	width: 20%;
+}
+
+/* iPad 
+-------------------------------------------------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+  /* text */
+h1, h2 {
+	color: blue;
+}
+
+.text2 {
+	display: block;
+	padding-top: 1em;
+	padding-left: 2.25em;
+	padding-right: 2.25em;
+}
+
+  /* image */
+.small {
+	width: 40%; 
+}
+
+a {
+	color: red;
+}
+
+/* Mobile
+-------------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+
+body {
+	background-color: black;
+}
+
+  /* text */
+h1, h2 {
+	color: white;
+}
+
+h1 {
+	font-size: 4em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+a {
+	color: blue;
+}
+
+  /* image */
+.small {
+	width: 100%; 
+}
