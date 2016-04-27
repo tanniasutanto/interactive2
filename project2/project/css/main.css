@@ -1,0 +1,71 @@
+body {
+	background-color: black;
+	width: 100%;
+	margin: 0;
+}
+
+#box {
+	width: 380px;
+	height: 100px;
+	position: fixed;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -45%);
+}
+
+#bluebox {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	border-radius: 2px;
+	float: left;
+}
+
+#redbox {
+	width: 100px;
+	height: 100px;
+	margin-left: 180px;
+	background-color: red;
+	border-radius: 2px;
+	float: left;
+}
+
+#home {
+	width: 12px;
+	height: 12px;
+	background-image:
+    linear-gradient(
+      to right, 
+      blue, red
+    );
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+#blue {
+	width: 12px;
+	height: 12px;
+	background-color: blue;
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+}
+
+#red {
+	width: 12px;
+	height: 12px;
+	background-color: red;
+	position: absolute;
+	bottom: 5px;
+	right: 10px;
+}
+
+#all_type {
+	width: 9px;
+	height: 9px;
+	border: 2px solid blue;
+	position: absolute;
+	top: 5px;
+	right: 10px;
+}
