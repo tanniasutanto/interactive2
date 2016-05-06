@@ -1,7 +1,9 @@
-body {
+body, html {
 	padding: 0;
 	margin: 0;
-	background-color: #223159; 
+	margin-right: 0px;
+	width: 100%;
+	overflow-x: hidden;
 }
 
 .row {
@@ -16,50 +18,53 @@ body {
 
 #page1 {
 	width: 100%;
-	height: 738px;
+	height: auto;
+	background: url("../images/background.png");
 }	
 
-#download_app {
-	width: 250px;
-	height: 50px;
-	margin: 90px 0px;
+.download_app {
+	width: auto;
+	height: auto;
+	padding: 10px 10px;
+	margin-top: 30px;
 	text-align: center;
 	color: white;
 	background: #f04b4c;
-	line-height: 50px;
 	font-size: 20px;
 	border-radius: 30px;
 }
 
-#page2 /*3 steps*/ {
+#page2 /*what*/{
 	width: 100%;
-	height: 498px;
+	height: auto;
+	padding-top: 30px;
 	background: white;
-	padding-top: 130px;
+	text-align: center;
 }
 
-#page3 /*fullbleed image*/ {
+#page3 /*steps*/{
 	width: 100%;
 	height: 618px;
 	background: #223159;
 }
 
-#page4 /*features*/ {
+#page4 /*features*/{
 	width: 100%;
-	height: 689px;
+	height: auto;
 	padding-top: 60px;
+	padding-bottom: 60px;
 	background: white;
 }
 
 #page5 {
 	width: 100%;
-	height: 500px;
+	height: 608px;
 	position: relative;
 	padding-top: 80px;
 	background: #223159;
 }
 
-#download{
+#download {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -73,9 +78,18 @@ body {
 	position: relative;
 }
 
+a:hover {
+	text-decoration: none;
+}
 
-h1, h3 {
+h6 {
 	color: white;
+	font-weight: normal;
+	line-height: 16px;
+}
+
+h3 {
+	color: #223159;
 }
 
 p {
@@ -83,7 +97,18 @@ p {
 	font-size: 18px;
 }
 
-h4 {
+h4,h1 {
 	color: #f04b4c;
 	font-size: 40px;
 }
+
+/* iPad---------
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+
+
+
+@media screen and (max-width: 768px) {
+
+
+*/
